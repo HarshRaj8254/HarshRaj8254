@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        /* CSS Position :--> Static(Default),absolute,relative,fixed,sticky */
+        .container {
+            border: 2px solid rgb(191, 38, 46);
+            background-color: bisque;
+            height: 5000px;
+        }
+
+        .box {
+            border: 2px solid black;
+            height: 150px;
+            width: 150px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        #box3 {
+            /* relative : means relative to its normal position and will leave a gap */
+            /* absolute :  means from parent position meaans from container. */
+            /* position: absolute;
+            left: 200px;
+            top: 200px; */
+
+            /* position: fixed;
+            bottom: 2px;
+            right: 2px; */
+
+            /* 
+            position relative to the browser window .....positon fixed means fixed the position irrespective to the height and width of the container */
+
+            /* position: sticky;
+            top: 2px;
+            position sticky will  stick the box at a position  */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+
+</html>

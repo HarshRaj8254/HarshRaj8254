@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding: 0;
+        }
+        body{
+            background-color: #8ee656;
+        }
+        .container{
+            background-color: aqua;
+            border: 2px solid rgb(84, 84, 142);
+            /* We can set margin/padding for top ,right ,bottom ,left */
+            /* padding-top: 79px;
+            padding-bottom: 55px;
+            padding-left: 79px;
+            padding-right: 79px; */
+
+            /* padding/margin = top right bottom left: ; */
+            /* padding: 23px 56px 36px 42px; */
+            /* padding: y(top/bottom) x(left right); */
+            padding: 34px 19px;
+            margin: 14px 19px;
+            border-radius: 23px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>This is my Heading.</h2>
+        <p id="first">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quas ea sequi quae perferendis ducimus. A maiores eos minima iste ipsam voluptas enim quo expedita aut, natus pariatur consequatur mollitia.
+        </p>
+    </div>
+    <div class="container">
+        <h2>This is my Heading.</h2>
+        <p id="second">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quas ea sequi quae perferendis ducimus. A maiores eos minima iste ipsam voluptas enim quo expedita aut, natus pariatur consequatur mollitia.
+        </p>
+    </div>
+    <div class="container">
+        <h2>This is my Heading.</h2>
+        <p id="third">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quas ea sequi quae perferendis ducimus. A maiores eos minima iste ipsam voluptas enim quo expedita aut, natus pariatur consequatur mollitia.
+        </p>
+    </div>
+</body>
+</html>
